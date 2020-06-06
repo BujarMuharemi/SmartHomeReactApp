@@ -1,19 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function App() {
-  
-  var Alert = ReactBootstrap.Alert;
+export default class App extends React.Component {
+  render() {
+    return (
 
-  return (
+      <View style={styles.container}>
+        <Text>Die Csaddsadso</Text>
 
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-
-);
+      </View>
+    );
+  }
 }
 
 const styles = StyleSheet.create({
