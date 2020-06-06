@@ -1,8 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   
+  var Alert = ReactBootstrap.Alert;
+
   return (
 
     <View style={styles.container}>
